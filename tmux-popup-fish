@@ -1,0 +1,2 @@
+#!/bin/bash
+tmux popup -d "#{pane_current_path}" -E "fish --init-command='fish_config prompt choose minimalist'"

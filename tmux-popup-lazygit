@@ -1,0 +1,2 @@
+#!/bin/bash
+tmux popup -h90% -w90% -d "#{pane_current_path}" -E lazygit
